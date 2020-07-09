@@ -5,3 +5,97 @@
 @import "base/fonts";
 @import "base/general";
 @import "../blocks/modules";
+body {
+    position: relative;
+    padding-top: 81px;
+    height: 100%;
+    font-family: 'Circe', sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    color: #252525;
+    background: #fff;
+    -webkit-tap-highlight-color: transparent;
+}
+
+div,
+section,
+footer,
+.btn {
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+input:focus {
+    outline: none;
+}
+
+p {
+    margin: 0 0 10px 0;
+    color: #252525;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+input:hover,
+input:focus {
+    outline: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+        position: relative;
+    }
+}
+
+.btn-black {
+    padding: 11px 0 11px 0;
+    background: linear-gradient(10deg, #444452 0%, #2c2a38 100%);
+    border-radius: 4px;
+    color: white;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn-black:hover {
+    background: linear-gradient(10deg, #467200 0%, #578a05 100%);
+    color: #fff;
+}
+
+@import "base/media";
