@@ -1,5 +1,5 @@
 .rewiews {
-    margin-bottom: 64px;
+    margin-bottom: 46px;
     .title {
         font-family: Circe;
         text-align: left;
@@ -34,17 +34,30 @@
 }
 
 .rewiews-box__item {
+    display: none;
     width: 44.5%;
     padding: 0 0 21px 0;
     margin-bottom: 25px;
     font-family: Circe;
     font-size: 14px;
+    border-bottom: 1px solid #d7d4d4;
     font-weight: 300;
 }
 
+.active .rewiews-box__item {
+    display: block;
+}
+
 .rewiews-box__item:first-child,
-.rewiews-box__item:nth-child(2) {
-    border-bottom: 1px solid #d7d4d4;
+.rewiews-box__item:nth-child(2),
+.rewiews-box__item:nth-child(3),
+.rewiews-box__item:nth-child(4) {
+    display: block;
+}
+
+.rewiews-box__item:last-child,
+.rewiews-box__item:nth-last-child(2) {
+    border: none;
 }
 
 .rewiews-box__item--top {
