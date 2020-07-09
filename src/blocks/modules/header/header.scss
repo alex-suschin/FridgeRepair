@@ -3,18 +3,22 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 18px 0 0 0;
+    padding: 18px 0 14px 0;
     background-color: #fff;
+    z-index: 99;
     .btn-black {
         display: block;
         margin: -6px 0 0 0;
         max-width: 165px;
         width: 100%;
     }
-    .row {
-        align-items: center;
-        justify-content: space-between;
-    }
+}
+
+.header-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -163,6 +167,10 @@
     font-family: Gilroy;
     font-size: 14px;
     font-weight: 700;
+}
+
+.phone:hover {
+    color: #467200;
 }
 
 .phone::before {
