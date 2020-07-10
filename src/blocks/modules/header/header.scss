@@ -189,3 +189,52 @@
     -ms-transform: rotate(-10deg);
     -o-transform: rotate(-10deg);
 }
+
+.fixed.header {
+    padding: 4px 0 5px 0;
+}
+
+.fixed .logo img {
+    width: 25px;
+    height: 42px;
+}
+
+.fixed .logo b {
+    color: black;
+    font-family: Circe;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.fixed .header-menu {
+    justify-content: center;
+    margin: 0;
+}
+
+.fixed .logo span {
+    color: black;
+    font-family: Circe;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.fixed .phone {
+    margin: 0 0 0 0;
+}
+
+.fixed .phone::before {
+    content: none;
+}
+
+.fixed .header-menu a {
+    padding: 18px 55px 18px 55px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+}
+
+.fixed .header-menu a:hover {
+    background-color: #292929;
+    color: #fff;
+}
