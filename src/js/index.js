@@ -48,20 +48,20 @@ $(function() {
 
     });
 
-    // $("#popup-callback").on('show.bs.modal', function(event) {
-    //     var button = $(event.relatedTarget);
-    //     console.log(button);
-    //     var recipient = button.data('form');
-    //     var modal = $(this);
-    //     modal.find('.hidden-input').val(recipient);
-    // });
-
 
     $('body').on('click', '[data-toggle="modal"]', function() {
         var button = $(this);
         var recipient = button.data('form');
         var modal = $('#popup-callback');
         modal.find('.hidden-input').val(recipient);
+    });
+
+    $('.btn-show-all').click(function() {
+        $(this).toggleClass('active');
+        if ($(this).hasClass('active')) {
+            $('.price-items').addClass('active');
+            $(this).hide();
+        }
     });
 
 
@@ -134,6 +134,11 @@ $(function() {
                 $('html').removeClass('ov-hidden');
             });
         }
+
+        if (width < '768') {
+            $(".header .btn-black").appendTo($(".menu-mobile"));
+        }
+
     });
 
 });

@@ -129,7 +129,7 @@
         padding-top: 81px;
     }
     .header .btn-black {
-        margin: -11px 25px 0 0;
+        margin: -8px 43px 0 0;
     }
     .cities {
         display: flex;
@@ -300,5 +300,156 @@
     }
     .contacts-form .agree {
         text-align: center;
+    }
+    .footer-info--bottom span {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 320px;
+    }
+    .about-box--text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .header .btn-black {
+        margin: 20px auto 0 auto;
+    }
+    .top-wrap .title {
+        font-size: 26px;
+    }
+    .top-wrap .title br {
+        display: none;
+    }
+    .top-wrap .desc {
+        font-size: 18px;
+    }
+    .top-wrap .desc span {
+        font-size: 14px;
+    }
+    .form-box form button {
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .top-wrap {
+        padding: 25px 0 25px 0;
+    }
+    .price {
+        padding: 30px 0 30px 0;
+    }
+    .price .title {
+        font-size: 26px;
+    }
+    .price-items .col-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .price .btn-black {
+        max-width: 100%;
+    }
+    .form-middle-wrap {
+        padding: 25px 0 25px 0;
+    }
+    .form-middle-wrap .title {
+        font-size: 26px;
+        text-align: center;
+    }
+    .form-middle-wrap .desc {
+        text-align: center;
+    }
+    .form-middle span {
+        max-width: 100%;
+    }
+    .form-middle button {
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .form-middle .agree {
+        text-align: center;
+    }
+    .about-box--text .title {
+        font-size: 26px;
+    }
+    .about-box--text p,
+    .about-box--text b {
+        font-size: 14px;
+        text-align: center;
+    }
+    .about-box--text li {
+        font-size: 14px;
+    }
+    .fix-bugs .title {
+        font-size: 24px;
+    }
+    .fix-bugs .title br {
+        display: none;
+    }
+    .rewiews .title {
+        font-size: 22px;
+        line-height: 1.1;
+    }
+    .rewiews-box__items {
+        flex-direction: column;
+    }
+    .rewiews-box__item {
+        width: 100%;
+        border-bottom: 1px solid #d7d4d4;
+    }
+    .rewiews-box__item:nth-last-child(2) {
+        border-bottom: 1px solid #d7d4d4;
+    }
+    .rewiews-box__item:last-child {
+        border: none;
+    }
+    .bottom-form-box {
+        width: 100%;
+        padding: 15px 20px 15px 20px;
+    }
+    .exelent-item {
+        font-size: 14px;
+    }
+    .bottom-form button {
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .bottom-form .agree {
+        text-align: center;
+    }
+    .questions .title {
+        font-size: 26px;
+        line-height: 1.1;
+    }
+    .contacts-box .title {
+        font-size: 26px;
+        line-height: 1.1;
+    }
+    .contacts-box .desc {
+        font-size: 14px;
+    }
+    .contacts-form span {
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .contacts-form button {
+        margin: 0 auto;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    .contacts-box__form {
+        width: 100%;
+        padding: 25px 15px 20px 15px;
+    }
+    .contacts {
+        margin-bottom: 50px;
+    }
+    .fix-bugs {
+        padding: 0 0 50px 0;
     }
 }

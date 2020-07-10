@@ -20,6 +20,10 @@
     margin-bottom: 24px;
 }
 
+.price-items .row .col-12 {
+    display: none;
+}
+
 .price-item {
     display: flex;
     flex-direction: column;
@@ -38,6 +42,17 @@
     .btn-black:hover {
         background: linear-gradient(-10deg, #444452 0%, #2c2a38 100%);
     }
+}
+
+.price-items .row .col-12:first-child,
+.price-items .row .col-12:nth-child(2),
+.price-items .row .col-12:nth-child(3),
+.price-items .row .col-12:nth-child(4) {
+    display: block;
+}
+
+.price-items.active .row .col-12 {
+    display: block;
 }
 
 .price-item--title {
